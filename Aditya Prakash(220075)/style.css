@@ -1,0 +1,13 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make the border circular */
+    border: 2px solid #ccc;
+  }
+  h3 {
+    transition: color 4s ease-in-out; /* Apply transition effect to the color property */
+  }
+  
+  h3:hover {
+    color: red; /* Change the color on hover */
+  }
