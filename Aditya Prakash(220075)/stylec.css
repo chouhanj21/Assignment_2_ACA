@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contact-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  text-decoration: none;
+  color: #333;
+  
+}
+
+.contact-icons img {
+  width: 200px;
+  height: 200px;
+}
+
+.contact-icons p {
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+
+
+
