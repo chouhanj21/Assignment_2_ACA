@@ -23,6 +23,8 @@ body{
     background-size: cover;
     background-position: center;
 }
+#pic
+.floatRight{float:right;margin-left:20px}
 .container{
     padding: 0px 10%;
 }
