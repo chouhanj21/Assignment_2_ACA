@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../img/abstract-textured-backgound_1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.cards{
+    margin: 30px 20px 30px 30px;
+    width: 95%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card1, .card2, .card3, .card4, .card5{
+    width: 18%;
+    height: 80%;
+    margin: 5px 20px;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.cards .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card1 h2, .card2 h2, .card3 h2, .card4 h2, .card5 h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 170%;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p{
+    margin: 50px 10px;
+    text-align: center;
+}
