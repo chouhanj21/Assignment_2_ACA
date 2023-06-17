@@ -1,0 +1,56 @@
+.navbar-brand:hover{
+    color: red;
+}
+
+.img-fluid{
+    height: 500px;
+    align-content: center;
+}
+
+.card-body-0{
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+.foot{
+    font-size: large;
+}
+
+.DBS{
+    height: 10px;
+}
+
+.card-body-1{
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-radius: 1rem;
+    color: black;
+}
+
+.body-1{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-head > *{
+    font: bold;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text-3{
+    font-size: large;
+}
+
+.container-4{
+    justify-content: center;
+}
+
+.not-sus-link{
+    color: inherit;
+}
+
+.form-label-5{
+    font-size: large;
+    font-weight: bold;
+}
